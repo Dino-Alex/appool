@@ -1,9 +1,6 @@
-.background {
-  height: 100%;
-  background-size: cover;
-  transform-origin: left top;
+.background{
+  background-image: url('./image/background.gif');
 }
-
 .mobile-rotater {
   transform-origin: left top;
 }
@@ -28,4 +25,9 @@
 .text-while{
   text-align: center;
   color: white;
+}
+
+
+.button:hover {
+  cursor: pointer;
 }

@@ -31,7 +31,7 @@ export const useWindowSize = ({ gameWidth, gameHeight }) => {
       let width = windowWidth;
       let rotate = "0deg";
       let marginLeft = 0;
-      if (screens?.xs || screens?.sm) {
+      if (screens?.xs ) {
         width = windowHeight;
         rotate = "90deg";
         marginLeft = windowWidth;

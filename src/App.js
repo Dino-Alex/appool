@@ -1,4 +1,4 @@
-
+import './App.css'
 import React from "react";
 import { useWindowSize } from "./useWindowSize";
 import backgroundImage from "./image/background.gif";
@@ -10,9 +10,8 @@ function App() {
   return (
     <div
       id="root"
-      className="container-screen mobile-rotater"
+      className="container-screen mobile-rotater background"
       style={{
-        backgroundImage: `url(${backgroundImage})`,
         height,
         width,
         transform: `rotate(${rotate})`,
