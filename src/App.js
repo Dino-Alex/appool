@@ -6,6 +6,7 @@ import backgroundImage from "./image/background.gif";
 function App() {
   const { size } = useWindowSize({ gameWidth: 1920, gameHeight: 1080 });
   const { rotate, width, height, marginLeft, ratio } = size;
+  console.log('height::: ', height);
 
   return (
     <div
